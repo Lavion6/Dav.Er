@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact - Davit Eradze</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="contact">
+    <header>
+      <div class="container">
+        <h1>Davit Eradze</h1>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html" class="contact-btn">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="contact">
+      <div class="container">
+        <h2>Contact Me</h2>
+        <p>
+          If you would like to get in touch with me, please use the contact
+          details below or fill out the form.
+        </p>
+        <address>
+          <p><strong>Phone:</strong> +995 (555) 555 555</p>
+          <p>
+            <strong>Email:</strong>
+            <a href="mailto:daviteradze@gmail.com">daviteradze@gmail.com</a>
+          </p>
+          <p><strong>Office Hours:</strong> Mon-Fri: 9am - 5pm</p>
+        </address>
+        <form
+          action="mailto:daviteradze@gmail.com"
+          method="post"
+          enctype="text/plain"
+        >
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+          <input type="submit" value="Send" />
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2024 Davit Eradze. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
